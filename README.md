@@ -1,7 +1,14 @@
-lista-de-enderecos/
-│── README.md
-│── index.html
-│── css/
-│   └── style.css
-│── js/
-│   └── script.js
+# Lista de Endereços
+
+Projeto desenvolvido para cadastro e listagem de endereços,
+utilizando GitHub com Milestones e Issues.
+
+## Funcionalidades
+- Cadastro de endereços
+- Validação dos campos
+- Listagem automática
+
+## Tecnologias
+- HTML
+- CSS
+- JavaScript
