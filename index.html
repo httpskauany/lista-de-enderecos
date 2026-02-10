@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Endereços</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Cadastro de Endereços</h1>
+
+    <form id="formEndereco">
+        <input type="number" id="numero" placeholder="Número" required>
+        <input type="text" id="bairro" placeholder="Bairro" required>
+        <input type="text" id="cidade" placeholder="Cidade" required>
+        <input type="text" id="estado" placeholder="Estado" required>
+        <input type="text" id="cep" placeholder="CEP" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <h2>Endereços Cadastrados</h2>
+    <ul id="listaEnderecos"></ul>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
